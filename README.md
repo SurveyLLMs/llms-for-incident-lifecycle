@@ -20,16 +20,34 @@ This repository includes high-quality research from some of the most prestigious
 
 ## 📂 Repository Structure
 
+This repository is organized to facilitate research and experiments related to the evaluation of **Large Language Models (LLMs)** in the context of **Root Cause Analysis (RCA)**, **Mitigation Plan generation**, and **Auto-remediation**. The repository contains the following key directories:
+
+## Directory Structure
+
 ```bash
 .
-├── paper/
-│   ├── survey.pdf               # Final survey paper
-│   └── references.bib           # BibTeX file with cited works
-├── data/
-│   ├── llm_models.csv           # List of LLMs used across studies
-│   ├── tasks_mapping.csv        # Task ↔ LLM mapping (diagnosis, mitigation, etc.)
-│   └── datasets_summary.csv     # Overview of datasets used
-├── figures/
-│   └── taxonomy_overview.png    # High-level figure from the paper
-├── README.md                    # This file
-└── LICENSE                      # License file
+├── Figures/                     # Contains figures for the evaluation of LLMs
+│   ├── RCA_metrics.png          
+│   ├── Mitigation_Plan_metrics.png  
+│   └── Auto-remediation_metrics
+│
+├── Papers/                      # Contains papers categorized by research topics
+│   ├── RCA/                     # Root Cause Analysis papers
+│   │   ├── Adaptibility/        # Adaptibility-related papers
+│   │   │   ├── LLMs_RCA_Adaptibility.xlsx
+│   │   └── Dataset/             # Datasets for RCA research
+│   │       ├── RCA_LLM_dataset.xlsx
+│   │
+│   ├── Mitigation Plan/         # Mitigation plan papers
+│   │   ├── Adaptibility/        # Adaptibility-related papers
+│   │   │   ├── LLMs_Mitigation_Plan_Adaptibility.xlsx
+│   │   └── Dataset/             # Datasets for Mitigation Plan research
+│   │       ├── Mitigation_Plan_LLM_dataset.xlsx
+│   │
+│   └── Auto-remediation/        # Auto-remediation papers
+│       ├── Adaptibility/        # Adaptibility-related papers
+│       │   ├── LLMs_Auto-remediation_Adaptibility.xlsx
+│       └── Dataset/             # Datasets for Auto-remediation research
+│           ├── Auto-remediation_LLM_dataset.xlsx
+│   ├── List_survey_papers.pdf                    # list of papers surveyed
+
