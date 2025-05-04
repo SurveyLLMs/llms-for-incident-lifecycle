@@ -12,7 +12,7 @@ This repository accompanies our comprehensive **Systematic Literature Review (SL
 This survey focuses on Root Cause Diagnosis, Mitigation Planning, Auto-remediation stages where LLMs demonstrate significant advantages, particularly in interpreting multimodal, unstructured observability data—logs, metrics, traces, and alerts (LMT+A).
 
 ---
-## High Quality Research
+## Research Quality
 
 This repository includes high-quality research from some of the most prestigious conferences and journals in the field of software engineering, cloud computing, and distributed systems. The following sources have been surveyed and referenced: **ICSE**, **FSE**, **CLOUD**, **TSE**, **IEEE**, **arXiv**. These high-quality sources are key references for the methodologies, models, and experimental designs employed in this repository.
 
